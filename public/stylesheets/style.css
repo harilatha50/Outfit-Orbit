@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:rgb(220, 137, 151);
+}
+
+a {
+  font: 25px "Garamond", Arial, sans-serif;
+  color: #1a0307;
+  
+}
+
+.navbar.navbar-default.navbar-fixed-top {
+  background-color:pink;
+
+}
+
+

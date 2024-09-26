@@ -1,0 +1,75 @@
+extends layout 
+block content 
+  .row.page-header 
+    .col-lg-12 
+      h1(style="margin-top:100px") westside
+  .row 
+    .col-xs-12.col-md-9 
+      .row 
+        .col-xs-12.col-sm-6 
+          p.rating 
+            span.glyphicon.glyphicon-star 
+            span.glyphicon.glyphicon-star 
+            span.glyphicon.glyphicon-star 
+            span.glyphicon.glyphicon-star-empty 
+            span.glyphicon.glyphicon-star-empty 
+          p 100 High Street, Reading, RG 7PS
+          .panel.panel-primary 
+            .panel-heading 
+              h2.panel-title Opening hours 
+            .panel-body 
+              p Monday - Friday : 7:00am - 7:00pm 
+              p Saturday : 8:00am - 5:00pm 
+              p Sunday : closed 
+          .panel.panel-primary 
+            .panel-heading 
+              h2.panel-title famousfor
+            .panel-body 
+              span.label.label-warning 
+                span.glyphicon.glyphicon-ok 
+                | &nbsp; western wear
+              | &nbsp; 
+        .col-xs-12.col-sm-6.location-map 
+          .panel.panel-primary 
+            .panel-heading 
+h2.panel-title Location map 
+           .panel-body
+           <iframe src = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60901.259117839196!2d78.339775!3d17.443975!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93a276decedf%3A0x2c12e79e6f9344e2!2sGachibowli%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1727360641873!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"          
+.row 
+        .col-xs-12 
+          .panel.panel-primary.review-panel 
+            .panel-heading 
+              a.btn.btn-default.pull-right(href='/location/review/new')     Add review 
+              h2.panel-title Customer reviews 
+            .panel-body.review-container 
+              .row 
+                .review 
+                  .well.well-sm.review-header 
+                    span.rating 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                    span.reviewAuthor Simon Holmes 
+                    small.reviewTimestamp 16 July 2013 
+                  .col-xs-12 
+                    p Very good service by staff. Good quality clothes. 
+              .row 
+                .review 
+                  .well.well-sm.review-header 
+                    span.rating 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star 
+                      span.glyphicon.glyphicon-star-empty 
+                      span.glyphicon.glyphicon-star-empty 
+                    span.reviewAuthor Hari 
+                    small.reviewTimestamp 16 June 2013 
+                  .col-xs-12 
+                    p Best store for snekers, but expensive. 
+    .col-xs-12.col-md-3 
+      p.lead 
+        Westside is on Outfit-Orbit Because It's highly preferable by many people.
+      p 
+        If you've been and you like it - or if you don't - please leave a review to help other people just like you.

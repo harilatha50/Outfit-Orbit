@@ -1,6 +1,6 @@
 module.exports.homelist = function (req, res) {
     res.render('locations-list', {
-        title: 'Outfit-Orbit-Your fashion is our passion.',
+        title: 'O u t f i t - O r b i t -Your fashion is our passion.',
         pageHeader: {
             title: 'OUTFIT-ORBIT ',
             strapline: 'Your fashion is our passion.'

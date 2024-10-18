@@ -1,75 +1,75 @@
-extends layout 
-block content 
-  .row.page-header 
-    .col-lg-12 
-      h1(style="margin-top:100px") H&M
-  .row 
-    .col-xs-12.col-md-9 
-      .row 
-        .col-xs-12.col-sm-6 
-          p.rating 
-            span.glyphicon.glyphicon-star 
-            span.glyphicon.glyphicon-star 
-            span.glyphicon.glyphicon-star 
-            span.glyphicon.glyphicon-star-empty 
-            span.glyphicon.glyphicon-star-empty 
+extends layout
+block content
+  .row.page-header(style="margin-bottom: 20px;") 
+    .col-lg-12
+      h1(style="margin-top: 20px;") H&M 
+  .row
+    .col-xs-12.col-md-9
+      .row
+        .col-xs-12.col-sm-6
+          p.rating
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star
+            span.glyphicon.glyphicon-star-empty
+            span.glyphicon.glyphicon-star-empty
           p 110 High Street, RG6 4PS
-          .panel.panel-primary 
-            .panel-heading 
-              h2.panel-title Opening hours 
-            .panel-body 
-              p Monday - Friday : 7:00am - 7:00pm 
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Opening hours
+            .panel-body
+              p p Monday - Friday : 7:00am - 7:00pm 
               p Saturday : 8:00am - 5:00pm 
               p Sunday : closed 
-          .panel.panel-primary 
-            .panel-heading 
-              h2.panel-title  famousfor
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title famousfor
             .panel-body 
-              span.label.label-warning 
-                span.glyphicon.glyphicon-ok 
+              span.label.label-warning
+                span.glyphicon.glyphicon-ok
                 | &nbsp;fashionable and affordable
-              | &nbsp; 
-        .col-xs-12.col-sm-6.location-map 
-          .panel.panel-primary 
-            .panel-heading 
-h2.panel-title Location map 
-           .panel-body
-           <iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.5158496221675!2d78.3868693!3d17.4350072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb915829daaaaf%3A0xe63a367dda2cf26b!2zSCZN!5e0!3m2!1sen!2sin!4v1727358676529!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
-.row 
-        .col-xs-12 
-          .panel.panel-primary.review-panel 
-            .panel-heading 
-              a.btn.btn-default.pull-right(href='/location/review/new')     Add review 
-              h2.panel-title Customer reviews 
-            .panel-body.review-container 
-              .row 
-                .review 
-                  .well.well-sm.review-header 
-                    span.rating 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star 
-                    span.reviewAuthor pooja 
-                    small.reviewTimestamp 16 July 2013 
-                  .col-xs-12 
-                    p i bought few beautiful outfits for my kids from H&M.they are durable and affordable.
-              .row 
-                .review 
-                  .well.well-sm.review-header 
-                    span.rating 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star 
-                      span.glyphicon.glyphicon-star-empty 
-                      span.glyphicon.glyphicon-star-empty 
-                    span.reviewAuthor lahari
-                    small.reviewTimestamp 16 June 2013 
-                  .col-xs-12 
+              | &nbsp;
+        .col-xs-12.col-sm-6.location-map
+          .panel.panel-primary
+            .panel-heading
+              h2.panel-title Location map
+            .panel-body
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.042433636588!2d78.36389799999999!3d17.457683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93f3d488f169%3A0x5f2e035ebbd20ae0!2zSCZN!5e0!3m2!1sen!2sin!4v1727372930685!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+.row
+        .col-xs-12
+          .panel.panel-primary.review-panel
+            .panel-heading
+              a.btn.btn-default.pull-right(href='/location/review/new') Add review
+              h2.panel-title Customer reviews
+            .panel-body.review-container
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                    span.reviewAuthor Neha
+                    small.reviewTimestamp   16 July 2024
+                  .col-xs-12
+                    p  i bought few beautiful outfits for my kids from H&M.they are durable and affordable.
+              .row
+                .review
+                  .well.well-sm.review-header
+                    span.rating
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star
+                      span.glyphicon.glyphicon-star-empty
+                      span.glyphicon.glyphicon-star-empty
+                    span.reviewAuthor Nishmitha 
+                    small.reviewTimestamp    19 january 2024
+                  .col-xs-12
                     p awful customer service.
-    .col-xs-12.col-md-3 
-      p.lead 
-        H&M is on Outfit-Orbit because it maintains standards of customers . 
- p 
-        If you've been and you like it - or if you don't - please leave a review to help other people just like you.
+    .col-xs-12.col-md-3
+      p.lead
+        |H&M is on Outfit-Orbit because it maintains standards of customers . 
+      p
+        | If you've been and you like it - or if you don't - please leave a review to help other people just like you.
